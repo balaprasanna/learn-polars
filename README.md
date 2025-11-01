@@ -16,7 +16,7 @@ A comprehensive, hands-on collection of Jupyter notebooks to master Polars, the 
 
 ## 📚 What's Inside
 
-This repository contains **20 comprehensive Jupyter notebooks** covering everything from basics to advanced performance optimization.
+This repository contains **23 comprehensive Jupyter notebooks** covering everything from basics to advanced performance optimization.
 
 ### 🎯 Core Curriculum (Start Here)
 
@@ -63,7 +63,15 @@ This repository contains **20 comprehensive Jupyter notebooks** covering everyth
 | 18 | `05_large_dataset_comparison.ipynb` | Performance benchmarks | 1.5h |
 | 19 | `19_performance_debugging.ipynb` | Profiling & optimization | 2h |
 
-**Total: ~35 hours** of comprehensive training material
+### 🎨 Optional Workshops
+
+| # | Notebook | What You'll Learn | Time |
+|---|----------|-------------------|------|
+| 20 | `20_udfs_custom_functions.ipynb` | UDFs, map_elements, performance | 2h |
+| 21 | `21_sql_interface.ipynb` | SQL syntax with Polars | 1.5h |
+| 22 | `22_visualization.ipynb` | Matplotlib & Plotly charts | 1.5h |
+
+**Total: ~40 hours** of comprehensive training material (35h core + 5h workshops)
 
 ---
 
@@ -190,6 +198,11 @@ Advanced
 [ ] 18_data_quality_validation.ipynb
 [ ] 05_large_dataset_comparison.ipynb
 [ ] 19_performance_debugging.ipynb
+
+Optional Workshops (Learn as needed)
+[ ] 20_udfs_custom_functions.ipynb
+[ ] 21_sql_interface.ipynb
+[ ] 22_visualization.ipynb
 ```
 
 ---

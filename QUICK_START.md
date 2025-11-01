@@ -123,10 +123,16 @@ Day 6-7: Build a project!
 - `02_lazy_evaluation_optimization.ipynb` - Focus on: `.lazy()`, `.collect()`, query plans
 - Start using lazy mode in your own code!
 
+**Bonus (Optional - based on your needs):**
+- `21_sql_interface.ipynb` - If you prefer SQL syntax
+- `22_visualization.ipynb` - To visualize your results
+- `20_udfs_custom_functions.ipynb` - For custom logic (use sparingly!)
+
 **Result:** You can now:
 - Create and manipulate DataFrames
 - Join and aggregate data
 - Write efficient lazy queries
+- (Optional) Use SQL syntax or create visualizations
 
 ---
 
@@ -151,6 +157,9 @@ Day 6-7: Build a project!
 | **Use with Pandas/DuckDB** | 16_interoperability.ipynb | 2h |
 | **Validate data quality** | 18_data_quality_validation.ipynb | 1.5h |
 | **Optimize performance** | 19_performance_debugging.ipynb | 2h |
+| **Use custom functions** | 20_udfs_custom_functions.ipynb | 2h |
+| **Query with SQL** | 21_sql_interface.ipynb | 1.5h |
+| **Visualize data** | 22_visualization.ipynb | 1.5h |
 
 ---
 

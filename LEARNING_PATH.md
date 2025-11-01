@@ -203,12 +203,44 @@ Phase 5: Advanced Topics & Performance
 
 ---
 
+## Phase 6: Optional Workshops 🎨
+
+**Estimated Time:** 4-6 hours (Optional - Learn as needed)
+
+These notebooks cover specialized topics. Learn them when you need these specific features.
+
+### 21. **20_udfs_custom_functions.ipynb**
+   - **What you'll learn:** User-defined functions (UDFs), when to use them, performance
+   - **When to use:** Complex business logic not available in native Polars
+   - **Key Concepts:** `map_elements()`, `map_batches()`, UDF performance, custom aggregations
+   - **⚠️ Important:** UDFs are slower than native expressions - use as last resort
+   - **Practice:** Create custom functions while maintaining performance
+
+### 22. **21_sql_interface.ipynb**
+   - **What you'll learn:** Using SQL syntax with Polars via SQLContext
+   - **When to use:** You know SQL well, complex joins, data exploration
+   - **Key Concepts:** `SQLContext`, SQL queries, CTEs, window functions in SQL
+   - **Practice:** Execute SQL queries on Polars DataFrames
+
+### 23. **22_visualization.ipynb**
+   - **What you'll learn:** Creating charts with Matplotlib and Plotly
+   - **When to use:** Need to visualize analysis results
+   - **Key Concepts:** Line charts, bar charts, interactive plots, dashboards
+   - **Practice:** Build comprehensive dashboards from Polars data
+
+### ✅ Checkpoint: Can you...
+- [ ] Write custom functions when native expressions aren't enough?
+- [ ] Use SQL syntax for queries when it's more convenient?
+- [ ] Create static and interactive visualizations of your data?
+
+---
+
 ## Quick Reference Guides
 
 ### For Specific Tasks
 
 #### Need to combine datasets?
-→ **01_joins_comprehensive.ipynb**
+→ **01_joins_comprehensive.ipynb** or **21_sql_interface.ipynb** (if you prefer SQL)
 
 #### Working with text?
 → **06_string_operations.ipynb**
@@ -224,6 +256,15 @@ Phase 5: Advanced Topics & Performance
 
 #### Integration with other tools?
 → **16_interoperability.ipynb**
+
+#### Need custom logic?
+→ **20_udfs_custom_functions.ipynb** (use sparingly!)
+
+#### Prefer SQL syntax?
+→ **21_sql_interface.ipynb**
+
+#### Want to visualize results?
+→ **22_visualization.ipynb**
 
 ---
 
@@ -256,8 +297,9 @@ Phase 5: Advanced Topics & Performance
 | Phase 3 | 8-10 hours | Doing simple analytics only |
 | Phase 4 | 4-6 hours | Not working with time series |
 | Phase 5 | 6-8 hours | Working with small datasets |
+| Phase 6 | 4-6 hours | Optional - Learn specific features as needed |
 
-**Total:** 28-38 hours for complete mastery
+**Total:** 32-44 hours for complete mastery (28-38 hours for core + 4-6 hours for workshops)
 
 ---
 
@@ -341,6 +383,11 @@ Phase 5: Advanced Topics & Performance
 [ ] 18_data_quality_validation.ipynb
 [ ] 05_large_dataset_comparison.ipynb
 [ ] 19_performance_debugging.ipynb
+
+Phase 6: Optional Workshops (Learn as needed)
+[ ] 20_udfs_custom_functions.ipynb
+[ ] 21_sql_interface.ipynb
+[ ] 22_visualization.ipynb
 ```
 
 ---
